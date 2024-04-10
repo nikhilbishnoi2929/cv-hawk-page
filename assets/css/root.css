@@ -21,7 +21,10 @@
     --section2: #F9F9F9;
     --lightwhite: #FAFAFA;
     --footer_text: #E2E2E2;
-
+    --box-shadow: #F36A3E66;
+    --black-2: #0000000A;
+    --black-border: #00000008;
+--img-shadow: #00000026;
 
     /* opacity */
     --op-90: 90%;
@@ -39,7 +42,18 @@
     --line-28: 28.44px;
 
 }
-
+.img-shadow{
+    color: var(--img-shadow);
+}
+.black-border{
+    color: var(--black-border);
+}
+.box-shadow{
+    color: var(--box-shadow);
+}
+.black-2{
+    color: var(--black-2);
+}
 .rubik {
     font-family: 'Rubik', sans-serif;
 }
