@@ -227,6 +227,16 @@
     bottom: -10px;
     left: 0;
 }
+.border_bottom_line_3::after{
+    content: "";
+    position: absolute;
+    background-image: url(../images/Rectangle68.png);
+    background-repeat: no-repeat;
+    width: 376px !important;
+    height: 7px;
+    bottom: -10px;
+    left: 0;
+}
 
 .pt-191 {
     padding-top: 191px;
@@ -458,15 +468,16 @@
 }
 
 .max-509 {
-    max-width: 509px !important;
+    max-width: 509px;
 }
 .ellps-2{
     top: 15%;
     right: 14%;
 }
-.max-353{
-    max-width: 353px;
+.max-558{
+    max-width: 558px;
 }
+ 
 
 
 
@@ -707,7 +718,18 @@
         padding-top: 100px;
         padding-bottom: 100px;
     }
+    .pt_44{
+        padding-top: 44px;
+    }
 
+    .py-107 {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .max-509{
+        max-width: 353px;
+    }
+    
 }
 
 @media (min-width: 768px) {}
