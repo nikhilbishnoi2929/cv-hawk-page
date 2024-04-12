@@ -1,11 +1,11 @@
 :root {
     /* font-size */
 
-    --fs-sm: 16px;
+    --fs-sm: 14px;
     --fs-md: 20px;
     --fs-lg: 22px;
     --fs-xl: 24px;
-    --fs-xxl: 40px;
+    --fs-xxl: 28px;
     --fs-3xl: 32px;
     /* font-weight */
     --fw-400: 400;
@@ -24,7 +24,7 @@
     --box-shadow: #F36A3E66;
     --black-2: #0000000A;
     --black-border: #00000008;
---img-shadow: #00000026;
+    --img-shadow: #00000026;
 
     /* opacity */
     --op-90: 90%;
@@ -37,23 +37,28 @@
     --line-61: 61px;
     --line-24: 24.69px;
     --line-26: 26.07px;
-    --line-47: 47.4px;
+    --line-47: 35px;
     --line-23: 23.7px;
     --line-28: 28.44px;
 
 }
-.img-shadow{
+
+.img-shadow {
     color: var(--img-shadow);
 }
-.black-border{
+
+.black-border {
     color: var(--black-border);
 }
-.box-shadow{
+
+.box-shadow {
     color: var(--box-shadow);
 }
-.black-2{
+
+.black-2 {
     color: var(--black-2);
 }
+
 .rubik {
     font-family: 'Rubik', sans-serif;
 }
@@ -170,7 +175,7 @@
     font-size: var(--fs-xl);
 }
 
- 
+
 
 @media (min-width: 575px) {
     :root {
@@ -178,8 +183,18 @@
     }
 }
 
+@media (min-width: 768px) {
+    :root {
+        --fs-xxl: 30px;
+        --line-47: 47px;
+        --fs-sm: 16px;
+    }
+}
+
 @media (min-width: 992px) {
     :root {
         --fs-3xl: 52px;
+        --fs-xxl: 40px;
+
     }
 }
