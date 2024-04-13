@@ -4,7 +4,7 @@
     --fs-sm: 14px;
     --fs-md: 20px;
     --fs-lg: 22px;
-    --fs-xl: 24px;
+    --fs-xl: 16px;
     --fs-xxl: 28px;
     --fs-3xl: 32px;
     /* font-weight */
@@ -26,7 +26,8 @@
     --black-border: #00000008;
     --img-shadow: #00000026;
     --slider-box: #00000012;
-    
+    --accordion-line: #E5E5E5;
+    --black2: #010101;
     /* opacity */
     --op-90: 90%;
     --op-80: 80%;
@@ -42,6 +43,12 @@
     --line-23: 23.7px;
     --line-28: 28.44px;
 
+}
+.black2{
+    color: var(--black2);
+}
+.accordion-line{
+    color: var(--accordion-line);
 }
 .slider-box{
     color: var(--slider-box);
@@ -183,6 +190,7 @@
 @media (min-width: 575px) {
     :root {
         --fs-3xl: 40px;
+        --fs-xl: 16px;
     }
 }
 
@@ -191,6 +199,7 @@
         --fs-xxl: 30px;
         --line-47: 47px;
         --fs-sm: 16px;
+        --fs-xl: 20px;
     }
 }
 
