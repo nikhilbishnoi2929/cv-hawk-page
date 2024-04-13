@@ -327,14 +327,15 @@
         </div>
     </section>
     <section class="bg_color d- none">
-        <div class="container max-w-1140 ">
+        <div class="container max-w-1140 position-relative">
             <div class="d-flex justify-content-center pt-80">
                 <h4 class="rubik fw-500 mb-0 fs-40 line-47 black ">What our Clients Say</h4>
             </div>
-            <div class="responsive_3 position-relative">
-                <div class="row d-flex justify-content-center   pb-80">
+
+            <div class="responsive_3 ">
+                <div class="row d-flex mx-auto justify-content-center  pb-80">
                     <div
-                        class="col-lg-4 col-md-6  pt__40 pt-71    d-flex justify-content-center justify-content-md-start ">
+                        class="col-lg-4 col-md-6  pt__40 pt-71    d-flex justify-content-center  ">
                         <div>
                             <div class="box_1 position-relative">
                                 <p class="sit-urna rubik fw-400 fs-16 mb-0 black op-80 ">Sit urna ornare sed quam
@@ -345,7 +346,8 @@
                                 </div>
                             </div>
                             <div class="d-flex gap-10 align-items-center pt-40 pl-20">
-                                <img src="./assets/images/first-img.png" alt="first-img">
+                                <img class="d-none d-sm-block" src="./assets/images/first-img.png" alt="first-img">
+                                <img class="d-block d-sm-none" src="./assets/images/second-img.png" alt="second-img">
                                 <div>
                                     <h3 class="rubik fw-400 fs-20 line-23 mb-0 black">Darrell Steward</h3>
                                     <img src="./assets/images/five-star.png" alt="five-star">
@@ -354,7 +356,7 @@
                         </div>
                     </div>
                     <div
-                        class="col-lg-4 col-md-6  d-none d-md-block pt_80 pt-45   d-flex justify-content-start justify-content-center">
+                        class="col-lg-4 col-md-6  d-none d-md-block pt_80 pt-45   d-flex   justify-content-center">
                         <div>
                             <div class="box_1 position-relative">
                                 <p class="sit-urna rubik fw-400 fs-16 mb-0 black op-80 ">Magna ipsum erat magna nulla
@@ -391,7 +393,7 @@
                         </div>
                     </div>
                     <div
-                        class="col-lg-4 col-md-6  d-none d-md-block  ml_60    pt_30  pt-22 d-flex  justify-content-lg-start  justify-content-center pl_53">
+                        class="col-lg-4 col-md-6  d-none d-md-block  ml_60    pt_30  pt-22 d-flex   justify-content-center pl_53">
 
                         <div>
                             <div class="box_1 position-relative">
@@ -432,9 +434,9 @@
                     </div>
                 </div>
 
-                <div class="row d-flex justify-content-center   pb-80">
+                <div class="row d-flex justify-content-center  mx-auto pb-80">
                     <div
-                        class="col-lg-4 col-md-6  pt__40 pt-71    d-flex justify-content-center justify-content-md-start ">
+                        class="col-lg-4 col-md-6  pt__40 pt-71    d-flex justify-content-center   ">
                         <div>
                             <div class="box_1 position-relative">
                                 <p class="sit-urna rubik fw-400 fs-16 mb-0 black op-80 ">Sit urna ornare sed quam
@@ -454,7 +456,7 @@
                         </div>
                     </div>
                     <div
-                        class="col-lg-4 col-md-6  d-none d-md-block pt_80 pt-45   d-flex justify-content-start justify-content-center">
+                        class="col-lg-4 col-md-6  d-none d-md-block pt_80 pt-45   d-flex  justify-content-center">
                         <div>
                             <div class="box_1 position-relative">
                                 <p class="sit-urna rubik fw-400 fs-16 mb-0 black op-80 ">Magna ipsum erat magna nulla
@@ -491,7 +493,7 @@
                         </div>
                     </div>
                     <div
-                        class="col-lg-4 col-md-6  d-none d-md-block  ml_60    pt_30  pt-22 d-flex  justify-content-lg-start  justify-content-center pl_53">
+                        class="col-lg-4 col-md-6  d-none d-md-block  ml_60    pt_30  pt-22 d-flex    justify-content-center pl_53">
 
                         <div>
                             <div class="box_1 position-relative">
@@ -531,28 +533,32 @@
                         </div>
                     </div>
                 </div>
-                <div class="prevbtn position-absolute">
-                    <div class="slider_btn svg_path d-flex justify-content-center align-items-center">
-                        <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M9.54985 0.779599L0.343499 10.224C0.181804 10.3899 0.0913086 10.6124 0.0913086 10.8441C0.0913086 11.0757 0.181804 11.2982 0.343499 11.4641L9.54985 20.9121C9.62517 20.9894 9.71523 21.0509 9.8147 21.0929C9.91418 21.1349 10.0211 21.1565 10.129 21.1565C10.237 21.1565 10.3439 21.1349 10.4433 21.0929C10.5428 21.0509 10.6329 20.9894 10.7082 20.9121C10.8632 20.7534 10.9499 20.5404 10.9499 20.3187C10.9499 20.0969 10.8632 19.8839 10.7082 19.7253L2.05081 10.8441L10.7082 1.96459C10.8626 1.80603 10.949 1.59343 10.949 1.3721C10.949 1.15076 10.8626 0.938165 10.7082 0.779599C10.6329 0.70224 10.5428 0.640754 10.4433 0.59877C10.3439 0.556786 10.237 0.535156 10.129 0.535156C10.0211 0.535156 9.91418 0.556786 9.8147 0.59877C9.71523 0.640754 9.62517 0.70224 9.54985 0.779599Z"
-                                fill="#F36A3E" />
-                        </svg>
 
-                    </div>
-                </div>
-                <div class="nextbtn position-absolute next_btn">
-                    <div class="slider_btn svg_path d-flex justify-content-center align-items-center">
-                        <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M1.83247 0.779599L11.0388 10.224C11.2005 10.3899 11.291 10.6124 11.291 10.8441C11.291 11.0757 11.2005 11.2982 11.0388 11.4641L1.83247 20.9121C1.75715 20.9894 1.6671 21.0509 1.56762 21.0929C1.46815 21.1349 1.36127 21.1565 1.2533 21.1565C1.14533 21.1565 1.03845 21.1349 0.938977 21.0929C0.839503 21.0509 0.749449 20.9894 0.674128 20.9121C0.519169 20.7534 0.432416 20.5404 0.432416 20.3187C0.432416 20.0969 0.519169 19.8839 0.674128 19.7253L9.33151 10.8441L0.674128 1.96459C0.5197 1.80603 0.433283 1.59343 0.433283 1.3721C0.433283 1.15076 0.5197 0.938165 0.674128 0.779599C0.749449 0.70224 0.839503 0.640754 0.938977 0.59877C1.03845 0.556786 1.14533 0.535156 1.2533 0.535156C1.36127 0.535156 1.46815 0.556786 1.56762 0.59877C1.6671 0.640754 1.75715 0.70224 1.83247 0.779599Z"
-                                fill="#F36A3E" />
-                        </svg>
 
-                    </div>
-                </div>
+
 
             </div>
+            <div class="prevbtn   position-absolute ">
+                <div class="slider_btn svg_path d-flex justify-content-center align-items-center">
+                    <svg width="11" height="22" viewBox="0 0 11 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9.54985 0.779599L0.343499 10.224C0.181804 10.3899 0.0913086 10.6124 0.0913086 10.8441C0.0913086 11.0757 0.181804 11.2982 0.343499 11.4641L9.54985 20.9121C9.62517 20.9894 9.71523 21.0509 9.8147 21.0929C9.91418 21.1349 10.0211 21.1565 10.129 21.1565C10.237 21.1565 10.3439 21.1349 10.4433 21.0929C10.5428 21.0509 10.6329 20.9894 10.7082 20.9121C10.8632 20.7534 10.9499 20.5404 10.9499 20.3187C10.9499 20.0969 10.8632 19.8839 10.7082 19.7253L2.05081 10.8441L10.7082 1.96459C10.8626 1.80603 10.949 1.59343 10.949 1.3721C10.949 1.15076 10.8626 0.938165 10.7082 0.779599C10.6329 0.70224 10.5428 0.640754 10.4433 0.59877C10.3439 0.556786 10.237 0.535156 10.129 0.535156C10.0211 0.535156 9.91418 0.556786 9.8147 0.59877C9.71523 0.640754 9.62517 0.70224 9.54985 0.779599Z"
+                            fill="#F36A3E" />
+                    </svg>
+
+                </div>
+            </div>
+            <div class="nextbtn  position-absolute next_btn">
+                <div class="slider_btn svg_path d-flex justify-content-center align-items-center">
+                    <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1.83247 0.779599L11.0388 10.224C11.2005 10.3899 11.291 10.6124 11.291 10.8441C11.291 11.0757 11.2005 11.2982 11.0388 11.4641L1.83247 20.9121C1.75715 20.9894 1.6671 21.0509 1.56762 21.0929C1.46815 21.1349 1.36127 21.1565 1.2533 21.1565C1.14533 21.1565 1.03845 21.1349 0.938977 21.0929C0.839503 21.0509 0.749449 20.9894 0.674128 20.9121C0.519169 20.7534 0.432416 20.5404 0.432416 20.3187C0.432416 20.0969 0.519169 19.8839 0.674128 19.7253L9.33151 10.8441L0.674128 1.96459C0.5197 1.80603 0.433283 1.59343 0.433283 1.3721C0.433283 1.15076 0.5197 0.938165 0.674128 0.779599C0.749449 0.70224 0.839503 0.640754 0.938977 0.59877C1.03845 0.556786 1.14533 0.535156 1.2533 0.535156C1.36127 0.535156 1.46815 0.556786 1.56762 0.59877C1.6671 0.640754 1.75715 0.70224 1.83247 0.779599Z"
+                            fill="#F36A3E" />
+                    </svg>
+
+                </div>
+            </div>
+        </div>
         </div>
     </section>
     <section class="d-none">
@@ -568,6 +574,7 @@
         </div>
     </section>
     <footer class="bg-black overflow-hidden d-none">
+        
         <div class="container max-w-1140">
             <div class="row pt-208">
                 <div class="col-lg-5 col-md-4 col-12">

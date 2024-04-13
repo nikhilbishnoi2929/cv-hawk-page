@@ -76,9 +76,9 @@ $('.responsive').slick({
   
 
 $('.responsive_3').slick({
-  dots: true,
+  dots: false,
   infinite: true,
-  speed: false,
+  speed: 600,
 
   arrows: true,
   prevArrow: ".prevbtn",
