@@ -25,7 +25,8 @@
     --black-2: #0000000A;
     --black-border: #00000008;
     --img-shadow: #00000026;
-
+    --slider-box: #00000012;
+    
     /* opacity */
     --op-90: 90%;
     --op-80: 80%;
@@ -42,7 +43,9 @@
     --line-28: 28.44px;
 
 }
-
+.slider-box{
+    color: var(--slider-box);
+}
 .img-shadow {
     color: var(--img-shadow);
 }

@@ -73,3 +73,53 @@ $('.responsive').slick({
     
     
   }); 
+  
+
+$('.responsive_3').slick({
+  dots: true,
+  infinite: true,
+  speed: false,
+
+  arrows: true,
+  prevArrow: ".prevbtn",
+  nextArrow: ".nextbtn",
+  slidesToShow: 1,
+  slidesToScroll: 1,
+ 
+  responsive: [
+    {
+      breakpoint: 1440,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+ 
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        
+      }
+    },
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+      }
+    },
+
+
+  ]
+}); 

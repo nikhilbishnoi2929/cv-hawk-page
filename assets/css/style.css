@@ -60,6 +60,9 @@
 .op-80 {
     opacity: 80%;
 }
+.op-90{
+    opacity: 90%;
+}
 
 .img_shadow {
     box-shadow: 0px 3px 35px 0px #00000026;
@@ -140,9 +143,7 @@
     padding-bottom: 267px;
 }
 
-.sit_urna {
-    max-width: 373px;
-}
+ 
 
 .gap-32 {
     gap: 32px;
@@ -230,7 +231,7 @@
 .border_bottom_line_3::after{
     content: "";
     position: absolute;
-    background-image: url(../images/Rectangle68.png);
+    background-image: url(../images/line3.png);
     background-repeat: no-repeat;
     width: 376px !important;
     height: 7px;
@@ -477,23 +478,144 @@
 .max-558{
     max-width: 558px;
 }
+ .width_465{
+    max-width: 465px;
+ }
+.py-135{
+    padding-top: 135px;
+    padding-bottom: 163px;
+}
+.ellips-3{
+    top: 10%;
+    right: 0;
+}
+.pt-80{
+    padding-top: 80px;
+}
+.box_1{
+    max-width: 357px;
+    border-radius: 10px;
+    background: var(--white);
+    padding: 15px 18px 14px 18px;
+    box-shadow: 0px 18px 59px 0px var(--slider-box);
+}
+.mt-69{
+    margin-top: 69px;
+}
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.transform_scale{
+    transition: all 400ms linear;
+}
+.transform_scale:hover{
+    transform: scale(1.2);
+}
+.big_box{
+    max-width: 1140px;
+    border-radius: 21px;
+    background: var(--orange);
+    padding: 64px 235px ;
+    transform: translateY(186px);
+}
+.your_path{
+    max-width: 669px;
+}
+.our_cv{
+    max-width: 615px;
+}
  
+.btn_get{
+    max-width: 168px;
+    border-radius: 41px;
+    padding: 17px 38px 17px 38px;
+    border:0;
+}
+.sit-urna{
+    max-width: 321px;
+}
+.gap-10{
+    gap: 10px;
+}
+.pl-20{
+    padding-left: 20px;
+}
+.pt-71{
+    padding-top: 71px;
+}
+.vector_8{
+    bottom: -25px;
+    left: 31px;
+}
+.vector_7{
+    bottom: -25px;
+    left: 33px;
+}
+.vector_6{
+    bottom: -25px;
+    left: 20px;
+}
+.vector_5{
+    bottom: -25px;
+    left: 43px;
+}
+.vector_4{
+    bottom: -25px;
+    left: 30px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.pt-45{
+    padding-top: 45px;
+}
+.pt-34{
+    padding-top: 34px;
+}
+.pt-38{
+    padding-top: 38px;
+}
+.pt-88{
+    padding-top: 88px;
+}
+.pt-22{
+    padding-top: 22px;
+}
+.pb-80{
+    padding-bottom: 80px;
+}
+.pl-26{
+    padding-left: 26px;
+}
+.pl-10{
+    padding-left: 10px; 
+}
+.pl-31{
+    padding-left: 31px;
+}
+.pl-21{
+    padding-left: 21px;
+}
+.slider_btn{
+    width: 41px;
+    height: 41px;
+    border-radius: 50px;
+    border: 1.42px solid var(--orange);
+    transition: all 400ms linear;
+}
+.slider_btn:hover{
+    background: var(--orange);
+ 
+}
+.svg_path:hover svg path{
+    fill: white;
+}
+.svg_path{
+    transition: all 400ms linear;
+}
+ .next_btn{
+    top: 50%;
+    left: 10%;
+ }
 
 
 
@@ -650,12 +772,47 @@
         bottom: -10px;
         left: 0;
     }
+    .border_bottom_line_3::after{
+        display: none;
+    }
+    .big_box{
+        
+        padding: 64px 158px ;
+        transform: translateY(186px);
+    }
+    .pt_80{
+        padding-top: 80px;
+    }
+    .pt__40{
+        padding-top: 40px;
+    }
+    .pt_30{
+        padding-top: 30px;
+    }
+    .pl_53{
+        padding-left: 53px;
+    }
+     
 }
 
 @media (min-width: 992px) {
     .para_2 {
         max-width: 499px;
     }
+    .sit_urna {
+        max-width: 373px !important;
+    }
+     
+    .pl_50{
+        padding-left: 50px;
+    }
+    .ml_60{
+        margin-left: 80px;
+    }
+    .ml_20{
+        margin-left: 20px;
+    }
+  
 
 }
 
@@ -729,10 +886,28 @@
     .max-509{
         max-width: 353px;
     }
+    .width_465{
+        max-width: 342px;
+     }
+     .py-135{
+        padding-top: 100px;
+        padding-bottom: 105px;
+    }
+    .big_box{
+        max-width: 754px;
+        padding: 36px 81px ;
+        transform: translateY(186px);
+    }
+    
     
 }
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .sit_urna {
+        max-width: 189px;
+    }
+    
+}
 
 @media (max-width: 578px) {
     .pt_60 {
@@ -768,7 +943,11 @@
         left: 0;
     }
 
-
+    .big_box{
+        max-width: 353px;
+        padding: 61px 21px ;
+        transform: translateY(186px);
+    }
 }
 
 @media (max-width: 370px) {
