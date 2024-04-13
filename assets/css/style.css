@@ -892,7 +892,9 @@ padding-bottom: 24px !important;
 .balck2{
     color: var(--black2) !important;
 }
-
+.mb--180{
+    margin-bottom: -185px;
+}
 
 
 
@@ -1268,9 +1270,12 @@ padding-bottom: 24px !important;
         position: absolute;
         background-image: url(../images/svg/underline.svg);
         width: 171px;
-        height: 8px;
+        /* height: 8px; */
         bottom: -4px;
         left: 0;
+    }
+    .circle_absolute {
+        top: 17%;
     }
 
     .big_box {
@@ -1317,4 +1322,9 @@ padding-bottom: 24px !important;
         top: 85%;
         left: 115px;
     }
+    .big_box {
+        max-width: 310px;
+        
+    }
+
 }
