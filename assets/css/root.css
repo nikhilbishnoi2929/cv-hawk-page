@@ -37,22 +37,26 @@
     --line-18: 18.96px;
     --line-62: 61.62px;
     --line-61: 61px;
-    --line-24: 24.69px;
+    --line-24: 21px;
     --line-26: 26.07px;
     --line-47: 35px;
     --line-23: 23.7px;
     --line-28: 28.44px;
 
 }
-.black2{
+
+.black2 {
     color: var(--black2);
 }
-.accordion-line{
+
+.accordion-line {
     color: var(--accordion-line);
 }
-.slider-box{
+
+.slider-box {
     color: var(--slider-box);
 }
+
 .img-shadow {
     color: var(--img-shadow);
 }
@@ -191,6 +195,7 @@
     :root {
         --fs-3xl: 40px;
         --fs-xl: 16px;
+        --line-24: 21px;
     }
 }
 
@@ -200,6 +205,7 @@
         --line-47: 47px;
         --fs-sm: 16px;
         --fs-xl: 20px;
+        --line-24: 24px;
     }
 }
 
@@ -207,6 +213,8 @@
     :root {
         --fs-3xl: 52px;
         --fs-xxl: 40px;
-
+        --line-24: 24px;
+        --fs-xl: 24px;
+        --fs-sm: 16px;
     }
 }
