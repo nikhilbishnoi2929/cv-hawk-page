@@ -147,3 +147,11 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 3000);
   });
 });
+
+
+
+  AOS.init(
+{
+  duration: 1200,
+}
+  );
