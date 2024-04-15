@@ -1070,14 +1070,16 @@
     .border_bottom_line_3::after {
         display: none !important;
     }
-    .big_box{
+
+    .big_box {
         max-width: 950px;
     }
+
     .gap_41 {
         gap: 24px;
     }
-    
-      
+
+
 }
 
 @media (max-width: 992px) {
@@ -1169,6 +1171,7 @@
     .pt-26 {
         padding-top: 36px;
     }
+
     .big_box {
         max-width: 754px;
         padding: 36px 81px;
@@ -1205,7 +1208,7 @@
         margin-right: 30px;
         margin-left: 30px;
     }
-   
+
 
 
 }
@@ -1299,7 +1302,7 @@
         padding-bottom: 105px;
     }
 
-     
+
 
     .small_box_2 {
         left: 50%;
@@ -1333,7 +1336,8 @@
     .mb__30 {
         margin-bottom: 30px;
     }
-    .big_box{
+
+    .big_box {
         max-width: 550px;
     }
 
