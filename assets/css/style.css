@@ -357,7 +357,6 @@
 }
 
 .last_line {
-    max-width: 1440px;
     border: 1px solid var(--lightwhite);
     opacity: 20%;
 }
