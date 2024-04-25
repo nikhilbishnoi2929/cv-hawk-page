@@ -647,6 +647,7 @@
 .pt-24 {
     padding-top: 24px;
 }
+
 /* 
 .max-556 {
     max-width: 556px;
@@ -1336,32 +1337,41 @@
         margin-bottom: 30px;
     }
 
-    /* .big_box {
-        max-width: 550px;
-    } */
-    
+    .py-20 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+
+
 }
 
 @media (min-width: 768px) {
     .sit_urna {
         max-width: 189px;
     }
+
     .para_5 {
         max-width: 556px;
     }
+
     .Professio_nally {
         max-width: 558px;
     }
+
     .max-558 {
         max-width: 558px;
     }
-    
-.max-556 {
-    max-width: 556px;
-}
-.para_3 {
-    max-width: 487px;
-}
+
+    .max-556 {
+        max-width: 556px;
+    }
+
+    .para_3 {
+        max-width: 487px;
+    }
+
+
 
 }
 
@@ -1405,7 +1415,7 @@
     }
 
     .big_box {
-        /* max-width: 353px; */
+
         padding: 61px 21px;
         transform: translateY(86px);
     }
@@ -1453,10 +1463,7 @@
         top: 85%;
         left: 115px;
     }
-/* 
-    .big_box {
-        max-width: 310px;
 
-    } */
+
 
 }
