@@ -1123,7 +1123,7 @@
 
     .big_box {
 
-        padding: 64px 158px;
+        /* padding: 64px 158px; */
         transform: translateY(186px);
     }
 
@@ -1172,7 +1172,7 @@
     }
 
     .big_box {
-        max-width: 754px;
+        /* max-width: 754px; */
         padding: 36px 81px;
         transform: translateY(86px);
     }
@@ -1336,9 +1336,9 @@
         margin-bottom: 30px;
     }
 
-    .big_box {
+    /* .big_box {
         max-width: 550px;
-    }
+    } */
     
 }
 
@@ -1405,7 +1405,7 @@
     }
 
     .big_box {
-        max-width: 353px;
+        /* max-width: 353px; */
         padding: 61px 21px;
         transform: translateY(86px);
     }
@@ -1453,10 +1453,10 @@
         top: 85%;
         left: 115px;
     }
-
+/* 
     .big_box {
         max-width: 310px;
 
-    }
+    } */
 
 }
